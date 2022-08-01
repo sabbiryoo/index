@@ -1,31 +1,36 @@
 *{margin:0;padding:0;}
-body{	background-color: LightCyan ; text-align:center;}
+body{	background-color: White ; text-align:center;}
+#menu_bar{	text-align:center;margin-left:120px;padding: 1% 1%;}
 ul.drop a{	text-decoration:none;}
 ul.drop ul{position:relative;}
 ul.drop li{
 	display:inline;
-	padding:20px;
+	padding:2px;
 	font-size:20px;
 	margin:10px;
-	padding:5px;
 }
 .profile_name{text-align:left; font-family:Comic Sans MS,cursive;font-size:30px;font-style:italic;}
+ul.drop li a{padding:10px;}
+ul.drop a#current{color:PaleVioletRed;}
 ul.drop li#name{margin-right:50px;font-size:25px;display: inline-block;}
-a:hover{color:red;
-	background-color:blue;
-	padding:10px;
+a:hover{color:white;
+	background-color:LightSlateGray;
+
 	border-radius:30px;}
-#menu_bar{	text-align:center;margin-left:120px;}
+
 #image{margin-left:200px;cursor:pointer;}
-#education_header{text-align: left;margin-left:400px;margin-top:15px;}
+.p_education{padding: 1%;margin-left:20px;}
 #achie_header{text-align: left;margin-left:440px;margin-top:15px;}
-.juniour_header,.achievement_header,.experience_header{padding:15px;}
+.skill{text-align:left;}
+#skill_program{float:left; text-align:left; display: block;margin-left:400px;margin-top:15px;}
+#skill_office{text-align:left;margin-left:700px;display: block;margin-top:15px;}
+.juniour_header{padding:15px;}
 p{font-size:17px;}
 #info{text-align: left;margin-left: 530px;}
 #profile_image{margin-right:0px;cursor:pointer;}
-ul.drop a#current{color:PaleVioletRed;}
+#contact{padding:1%;}
 .link{padding:10px;}
 .footer{text-align:left;margin-left: 530px;}
 .the_footer{font-size:20px;}
 .the_foot{ clear:both;}
-.foot{text-align:left;margin-left:200px;}
+.foot{text-align:left;margin-left:550px;}
